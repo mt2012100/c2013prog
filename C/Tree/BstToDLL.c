@@ -80,10 +80,10 @@ static Node treeToList(Node root) {
     
     return(aList);
 
-
+}
 
 /* Create a new node */
-static Node newNode(int data) {
+ Node newNode(int data) {
     Node node = (Node) malloc(sizeof(struct node));
     node->data = data;
     node->small = NULL;
@@ -93,7 +93,7 @@ static Node newNode(int data) {
 
 
 /* Add a new node into a tree */
-static void treeInsert(Node* rootRef, int data) {
+ void treeInsert(Node* rootRef, int data) {
     Node root = *rootRef;
     if (root == NULL) *rootRef = newNode(data);
     else {
@@ -103,7 +103,7 @@ static void treeInsert(Node* rootRef, int data) {
 }
 
 
-static void printList(Node head) {
+ void printList(Node head) {
     Node current = head;
     
     while(current != NULL) {
