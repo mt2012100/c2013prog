@@ -1,0 +1,2 @@
+horse run faster than another horse.
+gfdg printf fprintf horse
