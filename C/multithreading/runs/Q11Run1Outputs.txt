@@ -1,0 +1,4 @@
+4
+3
+The process is in safe state
+P1	P2	P3	

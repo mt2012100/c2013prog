@@ -1,0 +1,4 @@
+4
+3
+The process is not in safe state
+P1	Px	Px	
