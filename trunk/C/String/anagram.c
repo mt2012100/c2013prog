@@ -28,6 +28,7 @@ void permute(char *a, int i, int n)
           swap((a+i), (a+j)); //backtrack
        }
    }
+   return;
 }
  
 /* Driver program to test above functions */
@@ -35,6 +36,5 @@ int main()
 {
    char a[] = "ABC"; 
    permute(a, 0, 2);
-   getchar();
    return 0;
 }
