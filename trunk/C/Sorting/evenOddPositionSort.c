@@ -48,8 +48,13 @@ int searchElement(int *a, int low , int high, int data, int flag) {
 
 int main() {
 	int array[] ={2,5,6,7,16,15,18,19,20,677,678};
-	int i;
-	i = searchElement(array,0,10,677,1);
+	int i,len,data,flag=0;
+	len = sizeof(array)/sizeof(int);
+	data = 677;
+	flag = data%2;
+	printf("length: %d and flag: %d\n",len,flag);
+	//if  element to search is even then for flag pass 0 else 1.
+	i = searchElement(array,0,len-1,data,flag);
 
 return 0;
 }
