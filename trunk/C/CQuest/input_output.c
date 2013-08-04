@@ -1,7 +1,7 @@
 #include<string.h>
 #include<stdio.h>
 
-int main() {
+/*int main() {
 int i,j,a,b,c,d;
 	i=printf("thisisc");
 
@@ -11,6 +11,15 @@ int i,j,a,b,c,d;
 
 	printf("%d",j); 
 return 0;
-}
+}*/
 
 //output: printf: 7 scanf: 4 so final output: thisisc74
+
+int main()  {
+    int i=3;
+    printf("%c",i);
+    
+return 0;
+}
+
+//ouput: something grabage character.
