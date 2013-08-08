@@ -7,7 +7,7 @@ struct AdjMatrixGraph {
 
 };
 
-typedef AdjMatrixGraph Graph;
+typedef struct AdjMatrixGraph Graph;
 
 Graph *G; 
 //initialize the graph
