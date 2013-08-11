@@ -7,7 +7,7 @@ void SelectionSort(int *a, int n) {
 	int i=0,j=0;
 	int temp = 0;
 	int min = 0;
-	for(i=1;i<n-1 ;i++) {
+	for(i=0;i<n-1 ;i++) {
 		min = i;
 		for(j=i+1;j<n;j++) {
 			
