@@ -41,7 +41,7 @@ void MergeSort(int *a, int *temp,int start, int end) {
 		
 		MergeSort(a,temp, start,mid);
 		MergeSort(a,temp,mid+1,end);
-		Merge(a,temp,start,mid,end);
+		Merge(a,temp,start,mid+1,end);
 	}
 
 }
