@@ -40,8 +40,8 @@ void MergeSort(int *a, int *temp,int start, int end) {
 	if(end > start) {
 		
 		MergeSort(a,temp, start,mid);
-		MergeSort(a,temp,mid+1,end);
-		Merge(a,temp,start,mid+1,end);
+		MergeSort(a,temp,mid+1,end); // same here mid+1 is mandatory.
+		Merge(a,temp,start,mid+1,end); // here mid+1 only can pass,
 	}
 
 }
