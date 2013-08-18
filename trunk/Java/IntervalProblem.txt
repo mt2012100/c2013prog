@@ -1,0 +1,12 @@
+Soln1: 
+Merge Sort the start and end time and then replace(in the sorted arrat) all start time by 1 and end time by -1. The answer is max sum sub-array.
+Example: Start time(sorted)- 6,9,10,11,12 End time(sorted)- 9.3,10.3,12.3,13.3,14.3
+Merge Sort them nw and replace by 1 and -1 respectively
+6(+1), 9(+1),9.3(-1),10(+1),10.3(-1),11(+1),12(+1),12.3(-1),13.3(-1),14.3(-1)
+.
+.
+Max sum subarray=3
+
+soln2:
+
+
