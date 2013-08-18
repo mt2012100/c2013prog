@@ -60,3 +60,18 @@ int main() {
 //output: 1 2 4 1 reason: '' is treated as string so sizeof operator return pointer size. where as "" treated as array of character
 //including \0 so "A" return 2 byte. 
 
+/*
+# include<stdio.h>
+int main(){
+ int arr[] = {97, 98, 99, 100, 101, 102, 103, 104};
+int *ptr = arr+1;
+print(++ptr, ptr--, ptr, ptr++, ++ptr);
+return 0;
+}
+
+print(int *a, int *b, int *c, int *d, int *e)
+{
+printf("%d %d %d %d %d\n", *a, *b, *c, *d, *e);
+}
+*/
+//output: 100 100 100 99 100 , no reasion
