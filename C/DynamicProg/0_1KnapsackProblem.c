@@ -14,9 +14,11 @@ int knapsack(int * weight, int * values, int w, int n)
     int i, j;
     int k[n+1][w+1];
     bool keep[n+1][w+1];
+    
     for(i=0;i<=n;i++)
         for(j=0;j<=w;j++)
             keep[i][j] = 0;
+            
     for(i=0;i<=n;i++)
     {
         for(j=0;j<=w;j++)
