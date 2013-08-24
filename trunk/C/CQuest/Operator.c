@@ -59,6 +59,8 @@ return 0;
 //output: 12 11 12, expln: in stack , argument from right will push, so while printing ++a , or a will print updated values where as a++ will print values of a before ++ operation.
 // stack:a=10: values of a =11, a=11: val of a=12, a : val =12.
 
+//the order in which function arguments are evaluated is unspecified, and there is no sequence point between evaluating them.
+
 /*
 	#define SIZEOF(arr) (sizeof(arr)/sizeof(arr[0]))
 
