@@ -1,4 +1,3 @@
-//print the left view of tree.
 #include<stdlib.h>
 #include<stdio.h>
 #include<math.h>
@@ -16,21 +15,14 @@ node **createQueue() {
         return queue;
 }
 
-void freeQueue(node **queue) {
-	int i=0;
-	for(i=0;i<49;i++) {
-        free(queue[i]);
-    }
-    free(queue);
-}
+
 
 
 void levelOrderTraversal( node *root) {
     if(!root)
         return ;
         
-    int i=0,j=0,k=0;
-    int flag =1;
+    int i=0,j=0;
     node *dummy = (node *)malloc(sizeof(node));
     dummy->left = NULL;
     dummy->right = NULL;
@@ -44,17 +36,14 @@ void levelOrderTraversal( node *root) {
     
     while(1) {
         temp = queue[j++];
-        if(temp->val != -1 && flag) {
-            printf("%d ", temp->val); //print left sided tree using flag
-            flag = 0;
-        }    
+        if(temp->val != -1)
+            printf("%d ", temp->val);
         
         if(temp->val == -1) {
             if (i == j) // means all element of tree  has traversed.
                 return ;
             
             queue[i++] = dummy;
-            flag = 1;
             printf("\n");
         }
         
@@ -65,6 +54,9 @@ void levelOrderTraversal( node *root) {
             queue[i++] = temp->right;
         }
     
+    for(i=0;i<49;i++) {
+        free(queue[i]);
+    }
     free(queue);
 }
 void insert(node ** tree, node * item) {
@@ -90,8 +82,8 @@ void main() {
    int i;
 
    root = NULL;
-    int a[] = {40,50,20,60,49,39};
-   for(i=0;i< (sizeof(a)/sizeof(a[0]));i++) {
+    int a[] = {40,50,20,60,49,39,19};
+   for(i=0;i<=6;i++) {
       curr = (node *)malloc(sizeof(node));
       curr->left = curr->right = NULL;
       curr->val = a[i];
