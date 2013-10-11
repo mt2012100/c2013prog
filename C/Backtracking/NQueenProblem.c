@@ -2,6 +2,7 @@
 
 #define N 4
 #include<stdio.h>
+#include<stdbool.h>
  
 /* A utility function to print solution */
 void printSolution(int board[N][N])
@@ -106,6 +107,7 @@ int main()
 {
     solveNQ();
  
-    getchar();
     return 0;
 }
+
+
