@@ -1,0 +1,13 @@
+1. Find the depth of an n-ary Tree
+2. Write the Level Order travesal of Binary Tree in the following order
+Suppose the Tree is
+.................1
+..............2........3
+..........4....5....6....7
+
+The Order should be printed : 1 2 3 7 6 5 4
+
+3. Find the subarray with maximum sum/product
+4. Find all the possible subsets from a set of n distinct elements
+5. Create a Binary Tree using its Inorder Travesal and Postorder/Preorder Travesal
+6. Covert Infix expression into its equivalent Postfix/Prefix form (even vice-versa)
