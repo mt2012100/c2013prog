@@ -15,6 +15,48 @@ return 0;
  now 7+12 =19. 
  
  */
+ //Gio through this.
+ /*
+ int i = 2;
+
+// This part is from ++i
+i = i + 1;
+int left = i; // 3
+
+// This part is from i++
+int right = i; // 3
+i = i + 1;
+
+int j = left + right; // 3 + 3 = 6
+If instead you'd done:
+
+int i = 2;
+int j = i++ + ++i;
+that would be equivalent to:
+
+int i = 2;
+
+// This part is from i++
+int left = i; // 2
+i = i + 1;
+
+// This part is from ++i
+i = i + 1;
+int right = i; // 4
+
+
+int j = left + right; // 2 + 4 = 6
+ 
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  /*
