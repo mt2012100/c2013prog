@@ -18,6 +18,9 @@ return 0;
  //Gio through this.
  /*
  int i = 2;
+int j = ++i + i++;
+
+is the same as
 
 // This part is from ++i
 i = i + 1;
