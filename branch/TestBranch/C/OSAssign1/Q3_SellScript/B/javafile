@@ -1,0 +1,49 @@
+total 6888
+-rw-rw-r--  1 pratibind pratibind      96 Nov 20 22:20 add_script.txt
+-rw-rw-r--  1 pratibind pratibind     141 Nov 20 22:17 add_script.txt~
+drwxrwxr-x  9 pratibind pratibind    4096 Nov  6 21:36 apache-tomcat-6.0.36
+-rw-rw-r--  1 pratibind pratibind 6780936 Nov  6 21:35 apache-tomcat-6.0.36.tar.gz
+-rw-r--r--  1 pratibind pratibind    1815 Oct 27 14:53 awgnn.m
+drwxrwxr-x  4 pratibind pratibind    4096 Dec 12 14:00 cprog
+drwxr-xr-x  7 pratibind pratibind    4096 Dec 18 00:37 Desktop
+drwxrwxr-x  4 pratibind pratibind    4096 Aug 28 23:14 DMProject
+drwxr-xr-x  2 pratibind pratibind    4096 Jul 15 18:04 Documents
+drwxr-xr-x 11 pratibind pratibind    4096 Dec 16 10:43 Downloads
+drwxr-xr-x  3 pratibind pratibind    4096 Aug 24 15:46 eclipse
+-rw-r--r--  1 pratibind pratibind    8445 Jul 15 17:22 examples.desktop
+-rw-rw-r--  1 pratibind pratibind     160 Oct 21 02:16 fact.txt~
+-rw-rw-r--  1 pratibind pratibind     159 Oct 15 16:32 file.txt~
+drwxrwxr-x  3 pratibind pratibind    4096 Aug 28 23:10 General
+-rw-rw-r--  1 pratibind pratibind   69076 Nov 14 19:52 hs_err_pid5545.log
+-rw-rw-r--  1 pratibind pratibind     595 Oct 24 22:56 Kthroot.c~
+-rw-rw-r--  1 pratibind pratibind     184 Oct 21 22:34 log.c~
+-rw-rw-r--  1 pratibind pratibind     160 Oct 15 16:30 MirrorFile.text~
+-rw-rw-r--  1 pratibind pratibind       0 Oct 15 18:47 MirrorFile.txt~
+drwxr-xr-x  2 pratibind pratibind    4096 Jul 15 18:04 Music
+-rwxrwxrwx  1 pratibind pratibind     596 Nov 25 14:35 nc.sh
+-rwxrwxrwx  1 pratibind pratibind     439 Nov 25 13:42 nc.sh~
+-rw-rw-r--  1 pratibind pratibind    1246 Oct 21 02:16 Nfctorial.c~
+-rw-rw-r--  1 pratibind pratibind     400 Oct 27 15:18 NormalDist.m
+-rw-rw-r--  1 pratibind pratibind     325 Oct 27 15:18 NormalDist.m~~
+drwxr-xr-x  2 pratibind pratibind    4096 Nov 25 14:46 Pictures
+drwxr-xr-x  3 pratibind pratibind    4096 Nov  8 21:42 Practice
+drwxrwxr-x 11 pratibind pratibind    4096 Nov 15 00:36 project
+drwxr-xr-x  2 pratibind pratibind    4096 Jul 15 18:04 Public
+-rw-rw-r--  1 pratibind pratibind     355 Nov 28 16:44 Q2.m
+-rw-rw-r--  1 pratibind pratibind     325 Nov 28 16:44 Q2.m~~
+-rw-r--r--  1 pratibind pratibind    8030 Oct 27 15:02 qpsk.m
+-rw-rw-r--  1 pratibind pratibind     739 Oct 15 19:56 ReadDataFromFile.c~
+-rw-rw-r--  1 pratibind pratibind    1763 Oct 27 15:26 SNR.m
+-rw-rw-r--  1 pratibind pratibind     970 Oct 27 15:26 SNR.m~~
+drwx------  2 pratibind pratibind    4096 Nov 17 01:04 SQL
+-rw-------  1 pratibind pratibind     684 Oct 24 23:43 SquareRoot.c~
+drwxr-xr-x  2 pratibind pratibind    4096 Jul 15 18:04 Templates
+-rw-rw-r--  1 pratibind pratibind     843 Oct 15 22:19 TestFileRead.c~
+drwxrwxr-x  2 pratibind pratibind    4096 Jul 19 16:02 Ubuntu One
+drwxrwxr-x  2 pratibind pratibind    4096 Nov  6 20:52 UML
+drwxrwxr-x  3 pratibind pratibind    4096 Nov 16 00:36 UMLProject
+drwxrwxr-x  2 pratibind pratibind    4096 Nov 16 01:36 UmlTest
+drwxr-xr-x  3 pratibind pratibind    4096 Nov 15 19:44 vfs
+drwxr-xr-x  2 pratibind pratibind    4096 Jul 15 20:08 Videos
+
+elephant has been addded to this text.
